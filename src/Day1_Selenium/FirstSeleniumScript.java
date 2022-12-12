@@ -17,7 +17,7 @@ public class FirstSeleniumScript {
     public static void main(String[] args) {
 
         // 1. adım chorome  drive ın pathini belirliyoruz
-        System.setProperty("webdriver.chrome.driver","Dependencies\\driviers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","resources\\drivier\\chromedriver.exe");
 
         // Adım2 - driver objemizi oluşturduk
         WebDriver driver=new ChromeDriver();
